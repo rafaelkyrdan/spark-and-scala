@@ -10,8 +10,17 @@ However, the exercises should be runnable in clusters with minor tweaks.
 ## Examples
 1. Simple RDD
 2. Simple computations
-3. ...
+3. Word count task
+4. ...
 
+
+## Input 
+The `data` folder includes text files which are uses as input for tasks.
+All texts are from [www.sacred-texts.com/bib/osrc/](www.sacred-texts.com/bib/osrc/). 
+Where each verse is on a separate line, prefixed by the book name, chapter, number, and verse number, all "|" separated.
+
+## Output
+In the `output` folder we write the results of tasks.
 
 ## Terms
 1. RDD - Resilient Distributed Dataset. Simply it is a dataset, the basis
