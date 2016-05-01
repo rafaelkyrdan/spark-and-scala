@@ -80,6 +80,9 @@ object WordCount {
     //write the ouptput in the text file
     wordsCount1.saveAsTextFile("output/words-count-group-by-example")
 
-
+    //9.
+    //shutdown gracefully
+    //it's a good practice to always call stop
+    sc.stop()
   }
 }

@@ -41,5 +41,9 @@ object SimpleRDD {
     partitions.foreach(a => {
       println("Partition contents:" + a.foldLeft("")((s, e) => s + " " + e))
     })
+
+    //shutdown gracefully
+    //it's a good practice to always call stop
+    sc.stop()
   }
 }

@@ -83,6 +83,10 @@ object SimpleComputationsRDD {
       case (e: Exception) => println("Yep, it blew up now")
     }
 
+    //shutdown gracefully
+    //it's a good practice to always call stop
+    sc.stop()
+
   }
 
   /**
