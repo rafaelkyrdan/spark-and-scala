@@ -1,10 +1,11 @@
-import org.apache.spark.{SparkContext, SparkConf}
+import java.io.File
+
+import org.apache.commons.io.FileUtils
+import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
 
 /**
-  * 
-  * 
-  * 
+  * Check the comment for each step
   * Hint: use control + shift + P to check the type
   */
 
@@ -65,20 +66,24 @@ object WordCount {
     //third step
     //calculate the number in the group
     //Example of pair: (winefat,2)
-    val wordsCount1 = groupWords.map(group_word => (group_word._1, group_word._2.size))
-    peek(wordsCount1)
+    val wordCount1 = groupWords.map(group_word => (group_word._1, group_word._2.size))
+    peek(wordCount1)
 
     //the same but with pattern matching
-    val wordsCount2 = groupWords.map{case (word, group) => (word, group.size)}
-    peek(wordsCount2)
+    val wordCount2 = groupWords.map{case (word, group) => (word, group.size)}
+    peek(wordCount2)
 
     //the same but with mapValues function
-    val wordsCount3 = groupWords.mapValues(group => group.size)
-    peek(wordsCount3)
+    val wordCount3 = groupWords.mapValues(group => group.size)
+    peek(wordCount3)
 
     //last step
     //write the ouptput in the text file
-    wordsCount1.saveAsTextFile("output/words-count-group-by-example")
+    // but before clean up from previous output
+    // clean up output directory from previous example
+    val out = "output/word-count-group-by-example"
+    FileUtils.deleteDirectory(new File(out))
+    wordCount1.saveAsTextFile(out)
 
     //9.
     //shutdown gracefully
