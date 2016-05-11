@@ -10,7 +10,7 @@ However, the exercises should be runnable in clusters with minor tweaks.
 ## Examples
 1. Simple RDD
 2. Simple computations
-3. Word count task
+3. Word count tasks(WordCount1,WordCount2,WordCount3)
 4. ...
 
 

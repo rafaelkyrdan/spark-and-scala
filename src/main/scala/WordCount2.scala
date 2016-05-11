@@ -1,8 +1,7 @@
-//import com.typesafe.sparkworkshop.util.FileUtil
-import org.apache.commons.io.FileUtils
+
 import java.io._
+import org.apache.commons.io.FileUtils
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.SparkContext._
 
 /**
   * Check the comment for each step
@@ -13,7 +12,7 @@ object WordCount2 {
   def main(args: Array[String]) {
 
     // 1.
-    val conf = new SparkConf().setAppName("Intro (1)").setMaster("local[4]")
+    val conf = new SparkConf().setAppName("Intro (2)").setMaster("local[4]")
     val sc = new SparkContext(conf)
 
 
