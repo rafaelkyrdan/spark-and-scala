@@ -12,7 +12,8 @@ However, the exercises should be runnable in clusters with minor tweaks.
 2. Simple computations
 3. Word count tasks(WordCount1,WordCount2,WordCount3)
 4. Matrix4 - explicit parallelism in spark.
-5. ...
+5. Crawler
+6. ...
 
 
 ## Input 
