@@ -12,8 +12,9 @@ However, the exercises should be runnable in clusters with minor tweaks.
 2. Simple computations
 3. Word count tasks(WordCount1,WordCount2,WordCount3)
 4. Matrix4 - explicit parallelism in spark.
-5. Crawler
-6. ...
+5. Crawler - example of how to read all text files from directory
+6. Inverted index
+7. ...
 
 
 ## Input 

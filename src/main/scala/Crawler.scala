@@ -45,10 +45,10 @@ object Crawler {
       // remove ":" from path which we use as id
       // and trim the text
 
-      files_contents.map{
+      files_contents.map {
         case (id, text) =>
           val lastSep = id.lastIndexOf(separator)
-          val id2 = if (lastSep < 0) id.trim else id.substring(lastSep+1, id.length).trim
+          val id2 = if (lastSep < 0) id.trim else id.substring(lastSep + 1, id.length).trim
           val text2 = text.trim.replaceAll("""\s*\n\s*""", " ")
           (id2, text2)
       }.saveAsTextFile(output)
