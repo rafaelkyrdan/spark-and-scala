@@ -17,3 +17,6 @@ project/target/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+.DS_Store
+.DS_Store/
