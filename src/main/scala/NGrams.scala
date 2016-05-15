@@ -4,7 +4,7 @@ import org.apache.commons.io.FileUtils
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  *
+  * N-word phrases, or NGrams are use for Natural Language Processing
   */
 
 object NGrams {

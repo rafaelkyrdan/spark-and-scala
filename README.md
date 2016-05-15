@@ -7,7 +7,7 @@ You can work through the examples on a local workstation, so-called local mode.
 However, the exercises should be runnable in clusters with minor tweaks.
 
 
-## Exampless
+## Examples
 1. Simple RDD
 2. Simple computations
 3. Word count tasks(WordCount1,WordCount2,WordCount3)
@@ -15,7 +15,8 @@ However, the exercises should be runnable in clusters with minor tweaks.
 5. Crawler - example of how to read all text files from directory
 6. Inverted index
 7. NGram example
-8. ...
+8. Joins example
+9. ...
 
 
 ## Input 
