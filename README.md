@@ -14,7 +14,8 @@ However, the exercises should be runnable in clusters with minor tweaks.
 4. Matrix4 - explicit parallelism in spark.
 5. Crawler - example of how to read all text files from directory
 6. Inverted index
-7. ...
+7. NGram example
+8. ...
 
 
 ## Input 
