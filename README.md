@@ -1,5 +1,5 @@
 # spark-examples
-Scala examples how to use Apache Spark
+Demo project for new customers: Apache Spark + Scala examples
 
 This project contains examples of Scala code how to work with Apache Spark
 For this examples you don't need set up a cluster or install Hadoop.
@@ -16,7 +16,8 @@ However, the exercises should be runnable in clusters with minor tweaks.
 6. Inverted index
 7. NGram example
 8. Joins example
-9. ...
+9. SQLSpark API and DataFrame API
+10. ...
 
 
 ## Input 
