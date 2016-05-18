@@ -17,7 +17,8 @@ However, the exercises should be runnable in clusters with minor tweaks.
 7. NGram example
 8. Joins example
 9. SQLSpark API and DataFrame API
-10. ...
+10. Example with writing and reading: Parquet and JSON
+11. ...
 
 
 ## Input 
@@ -30,4 +31,5 @@ In the `output` folder we write the results of tasks.
 
 ## Terms
 1. RDD - Resilient Distributed Dataset. Simply it is a dataset, the basis
-abstraction in Spark. Presented as an abstract [class](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD) 
+abstraction in Spark. Presented as an abstract [class](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD)
+2. [Apache Parquet](http://parquet.apache.org/) is a columnar storage format available to any project in the Hadoop ecosystem.
