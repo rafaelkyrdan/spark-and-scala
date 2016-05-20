@@ -1,7 +1,8 @@
 # spark-examples
 Demo project for new customers: Apache Spark + Scala examples
 
-This project contains examples of Scala code how to work with Apache Spark
+This project contains examples of Scala code how to work with Apache Spark.
+There are plenty of comments, so just follow comment on each step.
 For this examples you don't need set up a cluster or install Hadoop.
 You can work through the examples on a local workstation, so-called local mode. 
 However, the exercises should be runnable in clusters with minor tweaks.
@@ -18,7 +19,7 @@ However, the exercises should be runnable in clusters with minor tweaks.
 8. Joins example
 9. SQLSpark API and DataFrame API
 10. Example with writing and reading: Parquet and JSON
-11. ...
+11. Streaming Example
 
 
 ## Input 
