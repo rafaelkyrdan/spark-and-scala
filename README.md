@@ -30,7 +30,7 @@ Where each verse is on a separate line, prefixed by the book name, chapter, numb
 ## Output
 In the `output` folder we write the results of tasks.
 
-## Terms
+## Dictionary
 1. RDD - Resilient Distributed Dataset. Simply it is a dataset, the basis
 abstraction in Spark. Presented as an abstract [class](http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD)
 2. [Apache Parquet](http://parquet.apache.org/) is a columnar storage format available to any project in the Hadoop ecosystem.
